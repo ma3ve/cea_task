@@ -1,0 +1,14 @@
+pages->
+    /liked
+    /disliked
+    /posts/create
+    /posts/id
+    /posts/id/update
+    /search/?q=
+
+component->
+    Card for posts
+    Navber with search
+    input for create
+    input for update
+    

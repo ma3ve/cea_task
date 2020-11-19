@@ -1,0 +1,1 @@
+export const NAV_CHANGE_PAGE = "NAV_CHANGE_PAGE";

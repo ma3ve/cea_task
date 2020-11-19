@@ -1,0 +1,2 @@
+export const ADD_DISLIKED = "ADD_DISLIKED";
+export const REMOVE_DISLIKED = "REMOVE_DISLIKED";
