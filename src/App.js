@@ -20,7 +20,7 @@ export class App extends Component {
         try {
             const res = await axios({
                 method: "get",
-                url: "http://jsonplaceholder.typicode.com/posts",
+                url: "https://jsonplaceholder.typicode.com/posts",
             });
             console.log(res.data);
             this.props.getPosts(res.data);
@@ -50,7 +50,11 @@ export class App extends Component {
                                 component={Create}
                                 exact
                             />
-                            <Route path="/posts/:id" component={Post} exact />
+                            <Route
+                                path="/posts/:id"
+                                component={Post}
+                                exact
+                            />
                             <Route
                                 path="/posts/:id/update"
                                 component={PostUpdate}
