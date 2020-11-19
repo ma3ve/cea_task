@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ceatask/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/ceatask/static/js/main.1b223dfc.chunk.js",
+    "main.js.map": "/ceatask/static/js/main.1b223dfc.chunk.js.map",
+    "runtime-main.js": "/ceatask/static/js/runtime-main.0389507e.js",
+    "runtime-main.js.map": "/ceatask/static/js/runtime-main.0389507e.js.map",
+    "static/css/2.d158fb92.chunk.css": "/ceatask/static/css/2.d158fb92.chunk.css",
+    "static/js/2.402c51d1.chunk.js": "/ceatask/static/js/2.402c51d1.chunk.js",
+    "static/js/2.402c51d1.chunk.js.map": "/ceatask/static/js/2.402c51d1.chunk.js.map",
+    "index.html": "/ceatask/index.html",
+    "precache-manifest.bac56249d656a21cfd868514b92d644c.js": "/ceatask/precache-manifest.bac56249d656a21cfd868514b92d644c.js",
+    "service-worker.js": "/ceatask/service-worker.js",
+    "static/css/2.d158fb92.chunk.css.map": "/ceatask/static/css/2.d158fb92.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/ceatask/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.402c51d1.chunk.js.LICENSE.txt": "/ceatask/static/js/2.402c51d1.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/ceatask/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0389507e.js",
+    "static/css/2.d158fb92.chunk.css",
+    "static/js/2.402c51d1.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.1b223dfc.chunk.js"
+  ]
+}
