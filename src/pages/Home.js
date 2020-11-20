@@ -16,7 +16,7 @@ export class Home extends Component {
                 <Button
                     fluid
                     onClick={() => {
-                        this.props.history.push("/posts/create");
+                        this.props.history.push("/cea/posts/create");
                     }}
                 >
                     create a new one?

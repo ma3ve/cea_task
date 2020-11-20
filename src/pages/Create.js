@@ -16,7 +16,7 @@ export class Create extends Component {
     handleSubmit = (e) => {
         e.preventDefault();
         this.props.add_post(this.state);
-        this.props.history.push("/");
+        this.props.history.push("/cea");
     };
 
     render() {

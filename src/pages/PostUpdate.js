@@ -16,7 +16,9 @@ export class PostUpdate extends Component {
     handleSubmit = (e) => {
         e.preventDefault();
         this.props.update_post(this.state, this.props.match.params.id);
-        this.props.history.push(`/posts/${this.props.match.params.id}`);
+        this.props.history.push(
+            `/cea/posts/${this.props.match.params.id}`
+        );
     };
 
     render() {
