@@ -11,20 +11,23 @@ class Navbar extends Component {
         return (
             <div>
                 <Menu secondary>
-                    <Menu.Item name="home" active={activeItem === "/cea"}>
-                        <Link to="/cea">Home</Link>
+                    <Menu.Item
+                        name="home"
+                        active={activeItem === "/ceatask"}
+                    >
+                        <Link to="/ceatask">Home</Link>
                     </Menu.Item>
                     <Menu.Item
                         name="liked"
-                        active={activeItem === "/cea/liked"}
+                        active={activeItem === "/ceatask/liked"}
                     >
-                        <Link to="/cea/liked">liked</Link>
+                        <Link to="/ceatask/liked">liked</Link>
                     </Menu.Item>
                     <Menu.Item
                         name="disliked"
-                        active={activeItem === "/cea/disliked"}
+                        active={activeItem === "/ceatask/disliked"}
                     >
-                        <Link to="/cea/disliked">disliked</Link>
+                        <Link to="/ceatask/disliked">disliked</Link>
                     </Menu.Item>
                 </Menu>
             </div>

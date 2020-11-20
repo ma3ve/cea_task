@@ -38,29 +38,33 @@ export class App extends Component {
                     </div>
                     <Container>
                         <Switch>
-                            <Route path="/cea" component={Home} exact />
                             <Route
-                                path="/cea/liked"
+                                path="/ceatask"
+                                component={Home}
+                                exact
+                            />
+                            <Route
+                                path="/ceatask/liked"
                                 component={Liked}
                                 exact
                             />
                             <Route
-                                path="/cea/disliked"
+                                path="/ceatask/disliked"
                                 component={Disliked}
                                 exact
                             />
                             <Route
-                                path="cea/posts/create"
+                                path="ceatask/posts/create"
                                 component={Create}
                                 exact
                             />
                             <Route
-                                path="/cea/posts/:id"
+                                path="/ceatask/posts/:id"
                                 component={Post}
                                 exact
                             />
                             <Route
-                                path="/cea/posts/:id/update"
+                                path="/ceatask/posts/:id/update"
                                 component={PostUpdate}
                                 exact
                             />

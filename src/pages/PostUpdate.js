@@ -17,7 +17,7 @@ export class PostUpdate extends Component {
         e.preventDefault();
         this.props.update_post(this.state, this.props.match.params.id);
         this.props.history.push(
-            `/cea/posts/${this.props.match.params.id}`
+            `/ceatask/posts/${this.props.match.params.id}`
         );
     };
 

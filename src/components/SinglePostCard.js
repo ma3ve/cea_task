@@ -62,7 +62,7 @@ export class PostCard extends Component {
                         <Button
                             onClick={() => {
                                 this.props.history.push(
-                                    `/cea/posts/${this.props.array_id}/update`
+                                    `/ceatask/posts/${this.props.array_id}/update`
                                 );
                             }}
                         >
